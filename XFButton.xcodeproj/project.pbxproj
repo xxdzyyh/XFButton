@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC0044E51DCF73EA006934A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0044E41DCF73EA006934A0 /* main.m */; };
+		EC0044E81DCF73EA006934A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0044E71DCF73EA006934A0 /* AppDelegate.m */; };
+		EC0044EB1DCF73EA006934A0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0044EA1DCF73EA006934A0 /* ViewController.m */; };
+		EC0044EE1DCF73EA006934A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC0044EC1DCF73EA006934A0 /* Main.storyboard */; };
+		EC0044F01DCF73EA006934A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC0044EF1DCF73EA006934A0 /* Assets.xcassets */; };
+		EC0044F31DCF73EA006934A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC0044F11DCF73EA006934A0 /* LaunchScreen.storyboard */; };
+		EC0044FC1DCF743E006934A0 /* XFButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0044FB1DCF743E006934A0 /* XFButton.m */; };
+		EC0044FF1DCF763E006934A0 /* UIView+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = EC0044FE1DCF763E006934A0 /* UIView+Ext.m */; };
+		EC0045011DCF79C4006934A0 /* 50.png in Resources */ = {isa = PBXBuildFile; fileRef = EC0045001DCF79C4006934A0 /* 50.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EC0044E01DCF73EA006934A0 /* XFButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XFButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC0044E41DCF73EA006934A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC0044E61DCF73EA006934A0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC0044E71DCF73EA006934A0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC0044E91DCF73EA006934A0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EC0044EA1DCF73EA006934A0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC0044ED1DCF73EA006934A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC0044EF1DCF73EA006934A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC0044F21DCF73EA006934A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC0044F41DCF73EA006934A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC0044FA1DCF743E006934A0 /* XFButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XFButton.h; sourceTree = "<group>"; };
+		EC0044FB1DCF743E006934A0 /* XFButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XFButton.m; sourceTree = "<group>"; };
+		EC0044FD1DCF763E006934A0 /* UIView+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Ext.h"; sourceTree = "<group>"; };
+		EC0044FE1DCF763E006934A0 /* UIView+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Ext.m"; sourceTree = "<group>"; };
+		EC0045001DCF79C4006934A0 /* 50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 50.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC0044DD1DCF73EA006934A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC0044D71DCF73E9006934A0 = {
+			isa = PBXGroup;
+			children = (
+				EC0044E21DCF73EA006934A0 /* XFButton */,
+				EC0044E11DCF73EA006934A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC0044E11DCF73EA006934A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC0044E01DCF73EA006934A0 /* XFButton.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC0044E21DCF73EA006934A0 /* XFButton */ = {
+			isa = PBXGroup;
+			children = (
+				EC0045001DCF79C4006934A0 /* 50.png */,
+				EC0044E61DCF73EA006934A0 /* AppDelegate.h */,
+				EC0044E71DCF73EA006934A0 /* AppDelegate.m */,
+				EC0044FA1DCF743E006934A0 /* XFButton.h */,
+				EC0044FB1DCF743E006934A0 /* XFButton.m */,
+				EC0044FD1DCF763E006934A0 /* UIView+Ext.h */,
+				EC0044FE1DCF763E006934A0 /* UIView+Ext.m */,
+				EC0044E91DCF73EA006934A0 /* ViewController.h */,
+				EC0044EA1DCF73EA006934A0 /* ViewController.m */,
+				EC0044EC1DCF73EA006934A0 /* Main.storyboard */,
+				EC0044EF1DCF73EA006934A0 /* Assets.xcassets */,
+				EC0044F11DCF73EA006934A0 /* LaunchScreen.storyboard */,
+				EC0044F41DCF73EA006934A0 /* Info.plist */,
+				EC0044E31DCF73EA006934A0 /* Supporting Files */,
+			);
+			path = XFButton;
+			sourceTree = "<group>";
+		};
+		EC0044E31DCF73EA006934A0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC0044E41DCF73EA006934A0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC0044DF1DCF73EA006934A0 /* XFButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC0044F71DCF73EA006934A0 /* Build configuration list for PBXNativeTarget "XFButton" */;
+			buildPhases = (
+				EC0044DC1DCF73EA006934A0 /* Sources */,
+				EC0044DD1DCF73EA006934A0 /* Frameworks */,
+				EC0044DE1DCF73EA006934A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XFButton;
+			productName = XFButton;
+			productReference = EC0044E01DCF73EA006934A0 /* XFButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC0044D81DCF73EA006934A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = wangxuefeng;
+				TargetAttributes = {
+					EC0044DF1DCF73EA006934A0 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EC0044DB1DCF73EA006934A0 /* Build configuration list for PBXProject "XFButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC0044D71DCF73E9006934A0;
+			productRefGroup = EC0044E11DCF73EA006934A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC0044DF1DCF73EA006934A0 /* XFButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC0044DE1DCF73EA006934A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC0044F31DCF73EA006934A0 /* LaunchScreen.storyboard in Resources */,
+				EC0044F01DCF73EA006934A0 /* Assets.xcassets in Resources */,
+				EC0045011DCF79C4006934A0 /* 50.png in Resources */,
+				EC0044EE1DCF73EA006934A0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC0044DC1DCF73EA006934A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC0044EB1DCF73EA006934A0 /* ViewController.m in Sources */,
+				EC0044FF1DCF763E006934A0 /* UIView+Ext.m in Sources */,
+				EC0044E81DCF73EA006934A0 /* AppDelegate.m in Sources */,
+				EC0044E51DCF73EA006934A0 /* main.m in Sources */,
+				EC0044FC1DCF743E006934A0 /* XFButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EC0044EC1DCF73EA006934A0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC0044ED1DCF73EA006934A0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC0044F11DCF73EA006934A0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC0044F21DCF73EA006934A0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC0044F51DCF73EA006934A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EC0044F61DCF73EA006934A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC0044F81DCF73EA006934A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XFButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.feng.XFButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC0044F91DCF73EA006934A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XFButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.feng.XFButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC0044DB1DCF73EA006934A0 /* Build configuration list for PBXProject "XFButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC0044F51DCF73EA006934A0 /* Debug */,
+				EC0044F61DCF73EA006934A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC0044F71DCF73EA006934A0 /* Build configuration list for PBXNativeTarget "XFButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC0044F81DCF73EA006934A0 /* Debug */,
+				EC0044F91DCF73EA006934A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC0044D81DCF73EA006934A0 /* Project object */;
+}
